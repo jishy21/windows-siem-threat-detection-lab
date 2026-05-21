@@ -1,0 +1,10 @@
+Sysmon Log Forwarding Configuration
+
+cd "C:\Program Files\SplunkUniversalForwarder\bin"
+
+.\splunk.exe add monitor "C:\Windows\System32\winevt\Logs\Microsoft-Windows-Sysmon%4Operational.evtx"
+
+.\splunk.exe restart
+
+Purpose:
+Forwards Sysmon Operational logs into Splunk for advanced endpoint visibility and process monitoring.
