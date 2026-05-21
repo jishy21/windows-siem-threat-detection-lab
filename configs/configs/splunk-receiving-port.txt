@@ -1,9 +1,0 @@
-Splunk Receiving Port Configuration
-
-Port Enabled: 9997
-
-Purpose:
-Allows Splunk Universal Forwarders to send Windows logs to the Splunk Enterprise server.
-
-Configuration Path:
-Settings > Forwarding and Receiving > Configure Receiving > New Receiving Port

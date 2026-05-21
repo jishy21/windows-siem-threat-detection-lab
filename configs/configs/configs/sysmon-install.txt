@@ -1,8 +1,0 @@
-Sysmon Installation Commands
-
-cd C:\Sysmon
-
-.\Sysmon64.exe -accepteula -i
-
-Purpose:
-Installs Sysmon to generate enhanced Windows security and process creation logs for monitoring in Splunk.
