@@ -1,0 +1,14 @@
+Lab Network Configuration
+
+SIEM-SERVER
+IP Address: 192.168.56.10
+Subnet Mask: 255.255.255.0
+Gateway: 192.168.56.1
+
+WIN-CLIENT01
+IP Address: 192.168.56.20
+Subnet Mask: 255.255.255.0
+Gateway: 192.168.56.1
+
+Purpose:
+Ensures both virtual machines can communicate for log forwarding and monitoring.
