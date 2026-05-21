@@ -1,9 +1,3 @@
-
----
-
-### `successful-login-investigation.md`
-
-```markdown id="c8m88f"
 # Incident Report: Successful Login Detection
 
 ## Incident Summary
