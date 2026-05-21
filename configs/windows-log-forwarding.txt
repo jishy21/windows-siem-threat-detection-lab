@@ -1,0 +1,14 @@
+Windows Event Log Forwarding Configuration
+
+cd "C:\Program Files\SplunkUniversalForwarder\bin"
+
+.\splunk.exe add monitor "C:\Windows\System32\winevt\Logs\Security.evtx"
+
+.\splunk.exe add monitor "C:\Windows\System32\winevt\Logs\System.evtx"
+
+.\splunk.exe add monitor "C:\Windows\System32\winevt\Logs\Application.evtx"
+
+.\splunk.exe restart
+
+Purpose:
+Forwards Windows Security, System, and Application logs from the client machine into Splunk Enterprise.
